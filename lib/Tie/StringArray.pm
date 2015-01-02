@@ -140,6 +140,7 @@ sub SPLICE {
 		( $self->_normalize_index( $offset ), $self->_last )
 		}
 	elsif( 2 <= $arg_count ) { # offset and length only
+		no warnings;
 		( $self->_normalize_index( $offset ), do {
 			if( $length < 0 ) { $self->_last - $length }
 			else              { $offset + $length - 1   }
