@@ -1,5 +1,5 @@
 BEGIN {
-	@classes = qw([% module %]);
+	@classes = qw(Tie::StringArray);
 	}
 
 use Test::More tests => scalar @classes;
