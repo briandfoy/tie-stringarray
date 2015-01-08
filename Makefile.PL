@@ -2,23 +2,49 @@ require 5.012;
 use strict;
 use warnings;
 
+use File::Spec::Functions qw(catfile);
 
-my $github    = 'https://github.com/briandfoy/';
-my $main_file = 'lib/';
+my $module    = 'Tie::StringArray';
+my $github    = 'https://github.com/briandfoy/Tie-StringArray';
+my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
-	'NAME'	        => 'Tie::StringArray',
-	'ABSTRACT_FROM' => 'lib/Tie/StringArray.pm',
-	'VERSION_FROM'  => 'lib/Tie/StringArray.pm',
+	'NAME'	        => $module,
+	'ABSTRACT_FROM' => $main_file,
+	'VERSION_FROM'  => $main_file,
 	'LICENSE'       => 'perl',
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 	
-	'PREREQ_PM'    => { 
-		'Test::More' => '0',
+	'CONFIGURE_REQUIRES' => {
+		'ExtUtils::MakeMaker' => '6.64',
+		},
+
+	'BUILD_REQUIRES' => {
+		},
+
+	'TEST_REQUIRES' => {
+		'Test::More' => '0.94',
+		},
+
+	'PREREQ_PM'     => {
+		},
+
+	'META_MERGE' => {
+		'meta-spec' => { version => 2 },
+		resources => {
+			repository => {
+				type => 'git',
+				url  => "$github.git",
+				web  => $github,
+				},
+			bugtraker => {
+				web    => "$github/issues",
+				},
+			homepage => $github,
+			},
 		},
 
 	clean  => { FILES    => q|Tie-StringArray-*| },
-
 	);
 
 sub arguments { \%WriteMakefile }
