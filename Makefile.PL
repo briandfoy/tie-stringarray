@@ -47,7 +47,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	clean  => { FILES    => q|Tie-StringArray-*| },
+	clean => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
