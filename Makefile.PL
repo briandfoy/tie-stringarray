@@ -1,10 +1,12 @@
 require 5.012;
+
+package Tie::StringArray;
 use strict;
 use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-my $module    = 'Tie::StringArray';
+my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/Tie-StringArray';
