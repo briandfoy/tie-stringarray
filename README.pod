@@ -71,16 +71,16 @@ the source repository:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/Tie-StringArray>
+=item *	L<https://github.com/briandfoy/tie-stringarray>
 
 =back
 
-If you find a problem, file a ticket in the L<issue 
-tracker|https://github.com/briandfoy/Tie-StringArray/issues>:
+If you find a problem, file a ticket in the L<issue
+tracker|https://github.com/briandfoy/tie-stringarray/issues>:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/Tie-StringArray/issues>
+=item *	L<https://github.com/briandfoy/tie-stringarray/issues>
 
 =back
 
