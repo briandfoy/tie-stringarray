@@ -10,7 +10,7 @@
 
 =for HTML <a href="https://github.com/briandfoy/Tie-StringArray/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Tie-StringArray.svg" /></a>
 
-=for HTML <a href="http://www.metacpan.org/module/Tie::StringArray"><img src="https://img.shields.io/cpan/v/Tie-StringArray.svg" /></A>
+=for HTML <a href="https://metacpan.org/pod/Tie::StringArray"><img src="https://img.shields.io/cpan/v/Tie-StringArray.svg" /></A>
 
 =head1 The Tie::StringArray module
 
@@ -23,7 +23,7 @@ for any Perl module.
 
 To read about L<Tie::StringArray>, look at the embedded documentation
 in the module itself. Inside the distribution, you can format it
-with L<perldoc|http://perldoc.perl.org/perldoc.html>:
+with L<perldoc|https://perldoc.perl.orgperldoc.html>:
 
 	% perldoc lib/Tie/StringArray.pm
 
@@ -33,7 +33,7 @@ name instead of the file location:
 	% perldoc Tie::StringArray
 
 You can read the documentation and inspect the meta data at
-L<MetaCPAN|http://www.metacpan.org/module/Tie::StringArray>.
+L<MetaCPAN|https://metacpan.org/pod/Tie::StringArray>.
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's
