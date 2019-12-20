@@ -6,6 +6,10 @@ sudo: false
 
 dist: trusty
 
+cache:
+    directories:
+    - $HOME/.perlbrew-cache
+
 language: perl
 perl:
     - "5.12"
