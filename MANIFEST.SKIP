@@ -66,3 +66,6 @@
 \.tgz$
 \.tar\.gz
 Tie-.*
+\bMANIFEST\s\d
+\bChanges\s\d
+
