@@ -1,11 +1,10 @@
 package Tie::StringArray;
 use strict;
-use vars qw( $VERSION );
 use warnings;
 
 use Carp qw(croak);
 
-$VERSION = '1.102';
+our $VERSION = '1.102';
 
 
 =encoding utf8
