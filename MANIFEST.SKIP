@@ -71,5 +71,3 @@ Tie-.*
 \A\.github\b
 
 \.gitattributes\b
-
-Tie-*
