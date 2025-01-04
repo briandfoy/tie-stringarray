@@ -4,7 +4,7 @@ use warnings;
 
 use Carp qw(croak);
 
-our $VERSION = '1.104';
+our $VERSION = '1.105';
 
 
 =encoding utf8
